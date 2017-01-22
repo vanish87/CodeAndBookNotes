@@ -1,6 +1,6 @@
 1. Singletion  
 Meyers Singleton  
-```c++
+```cpp
 class Singleton {
 public:
 static Singleton& Instance() {
