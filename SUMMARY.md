@@ -2,4 +2,4 @@
 
 * [First Chapter](chapter1.md)
 * Code Archive
-  * [Compare Float](Code Archive/Compare Float)
+  * [Compare Float](Code Archive/Compare Float.md)
