@@ -18,3 +18,10 @@ Singleton& operator=(Singleton const&); // assign op. hidden
 2. Good example of Script with C++  
 https://gamedevcoder.wordpress.com/2013/05/09/binding-c-with-lua-squirrel-game-monkey-and-ocaml/
 3. It has slightly different viewport for deferred lighting model. if rendering to half size of screen, only need to set a viewport to lighting pass(with drawing a full-screen qual). Keep in mind that they are rendering in **screen space**.
+4. D3dDeivce->QueryInterface  
+=> IDXGIDevice->GetParent  
+=> IDXGIAdapter->GetParent  
+=> IDXGIFactory1  
+or IDXGIFactory1->QueryInterface  
+=> IDXGIFactory2(DirectX 11.1 or later)  
+5. All SetCamera should take a pointer of Camera But set camera parameter to its members.
