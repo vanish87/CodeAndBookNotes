@@ -7,5 +7,6 @@
 * [Unity Programming Notes](Unity Programming Notes.md)
 * [vEngine Note](vEngineNote.md)
 * [高数](高数.md)
+* [BrownU CS224 Notes](BrownU CS224 Notes.md)
 * [Code Archive](code-archive.md)
     * [Compare Float](Code Archive/Compare Float.md)
