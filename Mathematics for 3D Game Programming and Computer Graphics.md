@@ -3,8 +3,7 @@
 P⋅Q/|Q| because P⋅Q = |P||Q|cosα.
 2. P23  
 The right hand rule provides a way for determining in which direction the
-cross product points. When the vectors P and Q are interchanged, their cross product is
-negated.
+cross product points. When the vectors P and Q are interchanged, their cross product is negated.
 3. P29 Chapter 2 Summary
  * Dot Products
  * Vector Projections
