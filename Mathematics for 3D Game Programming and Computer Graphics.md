@@ -22,10 +22,7 @@ If(V1xV2)⋅V3<0, then the basis is left-handed.
 7. P93  
 Distance Between a Point and a Line
 8. P112  
-The mapping to homogenous clip space is performed by first using a 4× 4
-projection matrix that, among other actions, places the negative z coordinate of a
-camera-space point into the w coordinate of the transformed point. Subsequent
-division by the w coordinate produces a three-dimensional point having normalized
+The mapping to homogenous clip space is performed by first using a 4× 4 projection matrix that, among other actions, places the negative z coordinate of a camera-space point into the w coordinate of the transformed point. Subsequent division by the w coordinate produces a three-dimensional point having normalized
 device coordinates.
 9. P178 Bump Mapping
 10. P187  
