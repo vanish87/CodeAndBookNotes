@@ -9,5 +9,6 @@
 * [vEngine Font Note](Notes For Font System.md)
 * [高数](高数.md)
 * [BrownU CS224 Notes](BrownU CS224 Notes.md)
+* [BrownU CSCI1972 Notes](BrownU CSCI1972 Notes.md)
 * [Code Archive](code-archive.md)
     * [Compare Float](Code Archive/Compare Float.md)
