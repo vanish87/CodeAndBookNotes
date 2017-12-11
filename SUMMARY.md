@@ -10,5 +10,7 @@
 * [高数](高数.md)
 * [BrownU CS224 Notes](BrownU CS224 Notes.md)
 * [BrownU CSCI1972 Notes](BrownU CSCI1972 Notes.md)
+* [Game Programming Partterns Notes](Game Programming Partterns Notes.md)
+* [Fluid Machanics Notes](Fluid Machanics Notes.md)
 * [Code Archive](code-archive.md)
     * [Compare Float](Code Archive/Compare Float.md)
