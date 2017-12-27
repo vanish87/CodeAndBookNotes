@@ -377,3 +377,21 @@ void GraphNode::render(Transform parentWorld,
 }
 ```
 ## Object pool
+* Define a pool class that maintains a collection of reusable objects.
+``` cpp
+template <class TObject>
+class GenericPool
+{
+private:
+ static const int POOL_SIZE = 100;
+ TObject pool_[POOL_SIZE];
+ bool inUse_[POOL_SIZE];
+};
+```
+------
+## [Online version](http://gameprogrammingpatterns.com/contents.html)
+## Unity related Patterns
+  * Game Loop Pattern: The Unity framework has a complex game loop detailed in a wonderful illustration you can find by searching for “MonoBehaviour Lifecycle”.
+  * Update Method Pattern: The Unity framework uses this pattern in several classes, including MonoBehaviour.
+  * Component Pattern: The Unity framework’s core GameObject class is designed entirely around components.
+  * Service Locator Pattern: The Unity framework uses this pattern in concert with the Component pattern (p. 213) in its GetComponent() method.
