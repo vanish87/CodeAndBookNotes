@@ -91,4 +91,32 @@ The transform that converts eye-space coordinates into clip-space coordinates is
 ### 25：文件IO，同步异步读取
 ### 26：文件系统，读取bitmap
 ### 27：多种3D文件的介绍，以及选择OpenGEX的原因。场景物体的分类
-### 28：SceneObject和SceneNode定义，GUID的使用，顶点数组和索引数组的实现
+### 28：SceneObject和SceneNode定义，GUID的使用，使用Structure Of Array更适合处理Mesh数据的讨论, 顶点数组和索引数组的实现
+### 29：光源的实现，相机的实现
+### 30：SceneNode的实现，3DAsset的载入，
+``` cpp
+class BaseSceneNode {
+      protected:                                                                                                                                                       std::string m_strName;
+          std::list<std::unique_ptr<BaseSceneNode>> m_Children;
+          std::list<std::unique_ptr<SceneObjectTransform>> m_Transforms;
+        }
+
+template <typename T>
+class SceneNode : public BaseSceneNode {
+       protected:
+           std::shared_ptr<T> m_pSceneObject;
+
+       public:
+           using BaseSceneNode::BaseSceneNode;
+           SceneNode() = default;
+           SceneNode(const std::shared_ptr<T>& object) { m_pSceneObject = object; };
+           SceneNode(const std::shared_ptr<T>&& object) { m_pSceneObject = std::move(object); };
+
+           void AddSceneObjectRef(const std::shared_ptr<T>& object) { m_pSceneObject = object; };
+
+   };
+```
+
+### 31：Mac OpenGL的Debug
+### 32：模型的载入
+### 33：使用Structure Of Array更适合处理Mesh数据，实现光照模型
