@@ -154,9 +154,7 @@ private:
 * all instructions are expressed in a bytecode buffer
 * p176 has a untagged union version of following codes
 * advice from author:
-  >My recommendation is that if you can stick with a single data type, do
-that. Otherwise, do a tagged union. That’s what almost every language
-interpreter in the world does
+  >My recommendation is that if you can stick with a single data type, do that. Otherwise, do a tagged union. That’s what almost every language interpreter in the world does
 ``` cpp
 //An example for setup data for UI script  
 class Value{
