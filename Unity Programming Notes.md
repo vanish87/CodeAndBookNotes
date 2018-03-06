@@ -18,3 +18,5 @@ https://forum.unity3d.com/threads/world-space-normal.58810/
 ## Unity Projection Matrix
 * different between CPU and GPU
 * http://logicalbeat.jp/blog/929/
+
+# _WorldSpaceLightPos0 is point to direction light position
